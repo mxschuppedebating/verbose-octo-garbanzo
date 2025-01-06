@@ -1,0 +1,9 @@
+prefix=C:/b/abs_54w9rdmr8o/croot/dav1d_1688746015517/_h_env/Library
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libdav1d
+Description: AV1 decoding library
+Version: 1.2.1
+Libs: -L${libdir} -ldav1d
+Cflags: -I${includedir}
